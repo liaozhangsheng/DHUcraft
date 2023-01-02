@@ -1,10 +1,22 @@
 * {
     margin: 0;
     padding: 0;
+    font-family: '站酷小薇LOGO体';
 }
 
 body {
     background-color: #b4d0ff;
+}
+
+#plane{
+    color: rgb(16, 194, 225);
+    font-size: 70px;
+    /* 绝对定位 */
+    position: absolute;
+    /* 弹性布局 水平+垂直居中 */
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 a {
@@ -489,6 +501,11 @@ a:hover {
     background-size: 100% 100%;
     text-align: center;
     padding-top: 50px;
+}
+
+.footer p {
+    margin-bottom: 10px;
+    text-decoration: underline;
 }
 
 @media screen and (max-width: 1070px) {
