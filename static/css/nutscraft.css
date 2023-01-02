@@ -6,6 +6,12 @@
 
 body {
     background-color: #b4d0ff;
+    user-select: none;
+}
+
+canvas{
+    /* 设置混合模式：变亮 */
+    mix-blend-mode: lighten;
 }
 
 #plane{
