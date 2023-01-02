@@ -374,7 +374,7 @@ a:hover {
     top: 290px;
     text-align: center;
     color: black;
-    font-size: 2rem;
+    font-size: 3rem;
     background-color: rgba(255, 255, 255, 0.2);
     padding: 20px;
     text-shadow: 0 0 10px rgba(0, 0, 0, 0.6);
@@ -396,15 +396,14 @@ a:hover {
 .Box2 ul li img {
     width: 260px;
     border: 5px solid white;
-    margin: 20px;
+    margin: 10px;
     box-shadow: 0 0 5px rgba(0, 0, 0, 0.8);
     transition: all 0.3s;
     cursor: pointer;
 }
 
 .Box2 ul li img:hover {
-    box-shadow: 0 0 20px rgba(0, 0, 0, 0.8);
-    transform: scale(1.02);
+    box-shadow: 0 0 20px rgba(239, 249, 43, 0.9);
 }
 
 .Box2-More {
