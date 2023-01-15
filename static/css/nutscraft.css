@@ -9,13 +9,13 @@ body {
     user-select: none;
 }
 
-canvas{
+canvas {
     /* 设置混合模式：变亮 */
     mix-blend-mode: lighten;
 }
 
-#plane{
-    color: rgb(16, 194, 225);
+#plane {
+    color: rgb(243, 230, 93);
     font-size: 70px;
     /* 绝对定位 */
     position: absolute;
@@ -398,13 +398,35 @@ a:hover {
     text-shadow: 0 0 10px rgba(0, 0, 0, 0.6);
 }
 
-.Box2 ul {
-    width: 940px;
+.img-wall {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+    grid-gap: 20px;
+    align-items: center;
+    justify-content: center;
+    margin:auto;
+    width: 1200px;
+    margin-top: 280px; 
+}
+
+.img-wall img {
+    width: 100%;
+    border: 5px solid white;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.8);
+    transition: all 0.3s;
+    cursor: pointer;
+}
+
+
+
+
+/* .Box2 ul {
+     width: 1200px;
     position: relative;
     top: 240px;
-    left: 50%;
+    left: 45%;
     margin-left: -470px;
-    margin-top: 80px;
+    margin-top: 80px; 
 }
 
 .Box2 ul li {
@@ -418,11 +440,13 @@ a:hover {
     box-shadow: 0 0 5px rgba(0, 0, 0, 0.8);
     transition: all 0.3s;
     cursor: pointer;
-}
+} */
 
 .Box2 ul li img:hover {
     box-shadow: 0 0 20px rgba(239, 249, 43, 0.9);
 }
+
+
 
 .Box2-More {
     display: block;
@@ -434,7 +458,7 @@ a:hover {
     text-align: center;
     line-height: 60px;
     position: relative;
-    top: 260px;
+    top: 20px;
     left: 50%;
     margin-left: -100px;
     opacity: 0;
